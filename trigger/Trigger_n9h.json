@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_n9h",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyArtistsToTxt",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2021-10-29T11:30:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
